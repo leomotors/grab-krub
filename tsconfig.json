@@ -1,0 +1,9 @@
+{
+    "compilerOptions": {
+        "module": "ESNext",
+        "moduleResolution": "node",
+        "allowSyntheticDefaultImports": true,
+        "resolveJsonModule": true
+    },
+    "extends": "./.svelte-kit/tsconfig.json"
+}
