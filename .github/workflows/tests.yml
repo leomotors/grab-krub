@@ -5,7 +5,7 @@ on:
 
 jobs:
   main:
-    name: Test
+    name: Tests
     runs-on: ubuntu-latest
 
     steps:
