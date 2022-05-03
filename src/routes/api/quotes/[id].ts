@@ -19,6 +19,9 @@ export const get: RequestHandler = ({ params }) => {
 
   return {
     status: 200,
+    headers: {
+      "Access-Control-Allow-Origin": "*",
+    },
     body: {
       text: quotes_pure[id],
       markdown: quotes_md[id],

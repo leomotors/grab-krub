@@ -7,6 +7,9 @@ import quotes_pure from "$lib/quotes_pure";
 export const get: RequestHandler = () => {
   return {
     status: 200,
+    headers: {
+      "Access-Control-Allow-Origin": "*",
+    },
     body: {
       text: quotes_pure,
       markdown: quotes_md,
