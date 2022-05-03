@@ -1,5 +1,4 @@
 // @ts-check
-/// <reference lib="esnext" />
 
 import fs from "node:fs/promises";
 import { marked } from "marked";
@@ -21,8 +20,8 @@ for (let i = start + 1; i < lines.length; i++) {
 
   quotes_md.push(line);
   quotes_html.push(
-    marked(line).replaceAll(
-      'href="https://',
+    marked(line).replace(
+      /href="https:\/\//g,
       "target='_blank' rel='noopener' href=\"https://"
     )
   );
