@@ -10,6 +10,8 @@ but can customize message, (and does not use canvas so, downloaded image can be 
 
 - /quotes : คาถาผู้แทน ท่องแล้วเก่ง
 
+- /api : ก็ api ไง
+
 ## คาถาติดผู้แทน
 
 - ผมก็บอกไปกี่ครั้งแล้ว ว่าต่อให้ใครต่อใครจะเก่งแค่ไหนอ่ะ ก็ไม่โหดเท่าคนที่ชื่อว่า #จอม #จอมน้อย #จอมน้อยส์ #Jomnoi #JomnoiZ #khem_jomz #เขมอันเดอร์สกอร์จอมส์  #Kamanun Maneesri #เขมนันท์ มณีศรี #jomlovejen79!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!7956 #เขมเจ็ดเก้าห้าหก [กราบท่านจอม](https://github.com/JomnoiZ)

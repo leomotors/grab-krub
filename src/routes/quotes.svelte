@@ -1,7 +1,7 @@
 <script lang="ts">
   import "../quotes.css";
 
-  import คาถาผู้แทน from "../คาถาผู้แทน.g.json";
+  import คาถาผู้แทน from "../คาถาผู้แทน.html.g.json";
 </script>
 
 <main class="page quotes-page">

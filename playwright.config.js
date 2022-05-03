@@ -6,5 +6,4 @@ export default {
     command: "yarn build && yarn preview",
     port: 3000,
   },
-  testDir: "tests-out",
 };

@@ -13,7 +13,7 @@
   });
 </script>
 
-<nav class="h-12 px-8 flex flex-row justify-between items-center">
+<nav class="h-12 px-8 flex flex-row justify-between items-center select-none">
   <a href="/">{phrase}</a>
   <a href="/quotes">คาถาติดผู้แทน</a>
 </nav>
@@ -22,7 +22,7 @@
 
 <slot />
 
-<footer class="flex flex-row justify-center items-center">
+<footer class="flex flex-row justify-center items-center mb-10">
   <div
     class="h-12 w-12 bg-cover cursor-pointer"
     style="background-image: url(github.svg)"
