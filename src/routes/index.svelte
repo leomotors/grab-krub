@@ -71,7 +71,7 @@
         placeholder="username"
       />
       <input
-        class="h-12"
+        class="h-12 color-picker"
         style="padding: 0.25em !important"
         type="color"
         bind:value={usernameColor}
@@ -86,7 +86,7 @@
 
     <section class="message-input flex flex-row gap-1">
       <input
-        class="grow h-12"
+        class="grow h-12 "
         type="text"
         bind:value={message}
         placeholder="message"
@@ -144,5 +144,9 @@
 
   button.icon-button {
     @apply border-2 rounded-lg p-2;
+  }
+
+  .color-picker {
+    background-color: #36393f;
   }
 </style>
