@@ -63,9 +63,9 @@
   </article>
 
   <section class="inputs flex flex-col items-center">
-    <section class="username-input flex flex-row">
+    <section class="username-input flex flex-row gap-1">
       <input
-        class="grow"
+        class="grow h-12"
         type="text"
         bind:value={username}
         placeholder="username"
@@ -76,20 +76,23 @@
         type="color"
         bind:value={usernameColor}
       />
-      <button class="icon-button" on:click={() => imageInputElement.click()}>
+      <button
+        class="icon-button h-12"
+        on:click={() => imageInputElement.click()}
+      >
         <img src="person-circle.svg" alt="Person" />
       </button>
     </section>
 
-    <section class="message-input flex flex-row">
+    <section class="message-input flex flex-row gap-1">
       <input
-        class="grow"
+        class="grow h-12"
         type="text"
         bind:value={message}
         placeholder="message"
       />
       <button
-        class="icon-button"
+        class="icon-button h-12"
         on:click={() => {
           const otherQuotes = quotes.filter((q) => q != message);
           message = otherQuotes[Math.floor(Math.random() * otherQuotes.length)];
